@@ -10,12 +10,12 @@ public class Cheers {
                 if (condition.indexOf(cheersChar) != -1) { 
                         System.out.println("Give me an " + cheersChar + ": " + cheersChar + "!");
                 } else {
-                        System.out.println("Give me a " + cheersChar + ": " + cheersChar + "!");     
+                        System.out.println("Give me a  "+ cheersChar + ": " + cheersChar + "!");     
                 } 
               }
                 System.out.println("What does it spell?");
                 for ( int j = 0 ; j < numberOfCheering ; j ++ ) {
-                System.out.println(cheersUpperCases +"!!!");
+                System.out.println(cheersUpperCases + "!!!");
                 } 
             }
         }
