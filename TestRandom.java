@@ -4,7 +4,7 @@ public  class  TestRandom {
 	    int numberOfRuns = Integer.parseInt( args[0] ) ; 
 		double countGreater = 0  ;
 		double countEqualOrLess = 0;
-		for (int i = 0; i < numberOfRuns; i++) {
+		for (int i = 0; i < numberOfRuns; i++){
             double randomNumber = Math.random();
             if (randomNumber > 0.5) {
                 countGreater++;
@@ -20,8 +20,7 @@ public  class  TestRandom {
 		} else {
 			System.out.println("Ratio cannot be defined");
 		}
-	 }
-		 
+	 }	 
    }
 
 	
