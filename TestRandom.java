@@ -18,7 +18,7 @@ public  class  TestRandom {
 			double ratio = ( countGreater / countEqualOrLess ) ;
 			System.out.println( " Ratio: " + ratio );
 		} else {
-			System.out.println( "Ratio cannot be defined");
+			System.out.println("Ratio cannot be defined");
 		}
 	 }
 		 
