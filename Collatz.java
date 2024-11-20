@@ -4,8 +4,8 @@ public class Collatz {
 	   int num = Integer.parseInt(args[0]);
 	   String mode = args[1].toLowerCase();
 	   for( int i = 0; i <= num ; i++ ) {
-		int seed = i;
-		int iterationCount = 1;
+		int seed = i ;
+		int iterationCount = 1 ;
 		do {
 			if(mode.equals("v") ) {
 				System.out.print(seed + " ");
