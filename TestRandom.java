@@ -9,7 +9,7 @@ public  class  TestRandom {
             if (randomNumber > 0.5) {
                 countGreater++;
             } else {
-                countEqualOrLess++;
+                countEqualOrLess ++;
             }
         }
         System.out.println("> 0.5 : " + (int) countGreater);
