@@ -14,7 +14,7 @@ public class Cheers {
                 } 
               }
                 System.out.println("What does that spell?");
-                for ( int j = 0 ; j < numberOfCheering ; j ++ ) {
+                for (int j = 0 ; j < numberOfCheering ; j ++) {
                 System.out.println(cheersUpperCases + "!!!");
                 } 
             }

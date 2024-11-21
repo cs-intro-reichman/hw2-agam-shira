@@ -3,7 +3,7 @@ public class CalcPi {
 	public static void main(String [] args) { 
 	  int numberOfTerms = Integer.parseInt(args [0] );
 	  double approximatedPi = 0.0;
-	  for (int i = 0 ; i< numberOfTerms ; i++ )
+	  for (int i = 0 ; i< numberOfTerms ; i++)
 	  {
 		Double calcuation = ( 1.0 / (2 * i + 1) ) ; 
 		/*
