@@ -7,8 +7,8 @@ public class Collatz {
 		int seed = i;
 		int countForIteration = 1;
 	do {
-		if ( mode.equals("v")) {
-			System.out.println(seed + " ");
+		if (mode.equals("v")) {
+			System.out.print(seed + " ");
 		}
 		if (seed % 2 == 0) {
 			seed = seed / 2;
