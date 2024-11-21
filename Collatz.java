@@ -2,7 +2,7 @@
 public class Collatz {
 	public static void main(String args[]) {
 	int N = Integer.parseInt(args [0]) ;
-	String mode = args [1];
+	String mode = args [1].toLowerCase();
 	for(int i = 1; i<= N ; i++){
 		int seed = i;
 		int countForIteration = 1;
